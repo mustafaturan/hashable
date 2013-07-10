@@ -1,5 +1,5 @@
 # Hashable
-
+[![Build Status](https://travis-ci.org/mustafaturan/hashable.png)](https://travis-ci.org/mustafaturan/hashable) [![Code Climate](https://codeclimate.com/github/mustafaturan/hashable.png)](https://codeclimate.com/github/mustafaturan/hashable)
 Makes objects to hash recursively.
 
 ## Installation
