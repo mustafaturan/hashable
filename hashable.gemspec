@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Hashable::VERSION
   spec.authors       = ['Mustafa Turan']
   spec.email         = ['mustafaturan.net@gmail.com']
-  spec.description   = %q{Recursively convert your objects into hash}
+  spec.description   = %q{Recursively convert your objects into nested hashes}
   spec.summary       = spec.description
   spec.homepage      = 'https://github.com/mustafaturan/hashable'
   spec.license       = 'MIT'
