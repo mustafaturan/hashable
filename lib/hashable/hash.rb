@@ -5,7 +5,7 @@ class Hash
 
   # Return recursively hash representation of the given hash
   #
-  # @return Base object instance variables in a Hash
+  # @return hash
   def to_deep_hash
     hash = {}
     self.keys.each do |key|
