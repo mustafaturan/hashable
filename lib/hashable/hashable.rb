@@ -14,18 +14,20 @@ module Hashable
   protected
     # nodoc
     def convert_hash_values(hash)
+      new_hash = {}
       hash.each do |key, val|
-        hash[key] = deeply_to_hash(val)
+        new_hash[key] = deeply_to_hash(val)
       end
-      hash
+      new_hash
     end
 
     # nodoc
     def convert_array_values(array)
+      new_array = []
       array.each_index do |index|
-        array[index] = deeply_to_hash(array[index])
+        new_array[index] = deeply_to_hash(array[index])
       end
-      array
+      new_array
     end
 
     # nodoc
